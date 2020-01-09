@@ -23,5 +23,5 @@ The requirements are absolutely without which you can not use the software due t
 Because I used a few ready-made components and software solutions I put all the information about their authors as required.
 
 Program name/library: phpBlueDragon CVSTool
-WWW: http://phpbluedragon.eu
+WWW: http://edytor.warszawa.pl/
 License: GPL v.3
