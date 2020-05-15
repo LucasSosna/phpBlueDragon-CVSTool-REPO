@@ -1,0 +1,9 @@
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.csprojAssemblyReference.cache
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.Form1.resources
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.Properties.Resources.resources
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.csproj.GenerateResource.cache
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\bin\Debug\csvtooldesktop.exe.config
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\bin\Debug\csvtooldesktop.exe
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\bin\Debug\csvtooldesktop.pdb
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.exe
+C:\Users\lukasz\Source\repos\csvtooldesktop\csvtooldesktop\obj\Debug\csvtooldesktop.pdb
