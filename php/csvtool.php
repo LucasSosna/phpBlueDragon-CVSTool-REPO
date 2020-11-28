@@ -10,31 +10,12 @@ error_reporting(E_ALL & ~E_NOTICE);
 </head>
 <body>
 
-<h1>CSV Tool - v.1.0.3</h1>
+<h1>CSV Tool - v.1.0.4</h1>
 
 <?php
 
 if($_POST['send_form'] == 'yes')
 {
-    /*echo '<pre>';
-    print_r($_FILES);
-    echo '</pre>';*/
-    
-    /*
-    Array
-    (
-        [file_with_csv] => Array
-            (
-                [name] => about.html
-                [type] => text/html
-                [tmp_name] => C:\xampp\tmp\phpDF39.tmp
-                [error] => 0
-                [size] => 27481
-            )
-    
-    )
-    */
-
     $IsError = false;
     
     if($_POST['separator_char'] == "")
@@ -113,17 +94,17 @@ if($SeparatorValue == "")
 ?>
 
 <form method="post" action="csvtool.php" enctype="multipart/form-data">
-File:
+<h2>File:</h2>
 <ul>
 <li>Each line should contain a separate line</li>
 <li>Each row should contain the same number of columns</li>
 <li>The file will be converted into a table using the &lt;table&gt; tag.</li>
 </ul>
 
-File (only file<strong>.csv</strong>):<br />
+<h2>File (only file like<strong>.csv</strong>)</h2><br />File (only file like<strong>.csv</strong>):<br />
 <input type="file" name="file_with_csv" /><br />
 <br />
-Separator:<br />
+<h2>Separator</h2><br />Separator:<br />
 <input type="text" name="separator_char" value="<?php echo $SeparatorValue; ?>" /><br />
 <br />
 <input type="hidden" name="send_form" value="yes" />
