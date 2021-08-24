@@ -106,7 +106,7 @@ namespace csvtooldesktop
 
         private void wWWToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://edytor.warszawa.pl/");
+            System.Diagnostics.Process.Start("http://phpbluedragon.eu/");
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
