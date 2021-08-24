@@ -25,6 +25,11 @@ namespace csvtooldesktop
 
         private string[] linesOfFile;
 
+        private string TrimMyString(string MyValue)
+        {
+            return MyValue;
+        }
+        
         private void buttonSelectFile_Click(object sender, EventArgs e)
         {
             var fileContent = string.Empty;
