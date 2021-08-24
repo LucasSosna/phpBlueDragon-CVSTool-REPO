@@ -6,7 +6,7 @@ You will generate the content of CSV files immediately in the form of a table bo
 - Each row should contain the same number of columns
 - The file will be converted into a table using the <table> tag.
 
-Home page: http://edytor.warszawa.pl/
+Home page: http://phpbluedragon.eu
 
 ## Requirements (Web)
 
@@ -23,5 +23,5 @@ The requirements are absolutely without which you can not use the software due t
 Because I used a few ready-made components and software solutions I put all the information about their authors as required.
 
 Program name/library: phpBlueDragon CVSTool
-WWW: http://edytor.warszawa.pl/
+WWW: http://phpbluedragon.eu
 License: GPL v.3
