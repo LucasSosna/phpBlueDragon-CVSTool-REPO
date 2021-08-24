@@ -10,7 +10,7 @@ error_reporting(E_ALL & ~E_NOTICE);
 </head>
 <body>
 
-<h1>CSV Tool - v.1.0.4</h1>
+<h1>CSV Tool - v.1.0.5</h1>
 
 <?php
 
@@ -71,7 +71,7 @@ if($_POST['send_form'] == 'yes')
             
             for($z=0;$z<count($ReadyOneRow);$z++)
             {
-                $ToOutputFile .= '<td>'.$ReadyOneRow[$z].'</td>';
+                $ToOutputFile .= '<td>'.trim($ReadyOneRow[$z]).'</td>';
             }
             
             $ToOutputFile .= '</tr>';
